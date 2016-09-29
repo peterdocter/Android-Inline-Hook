@@ -1,11 +1,3 @@
-# Android-Inline-Hook
-thumb16 thumb32 arm32 inlineHook
-
-# Build
-```ndk-build NDK_PROJECT_PATH=. APP_BUILD_SCRIPT=./Android.mk NDK_APPLICATION_MK=./Application.mk```
-
-# Example
-```C
 #include <stdio.h>
 
 #include "inlineHook.h"
@@ -46,8 +38,3 @@ int main()
     unHook();
     puts("test");
 }
-
-```
-
-# Contact
-If you find any bugs, please contact me(ele7enxxh@qq.com)
